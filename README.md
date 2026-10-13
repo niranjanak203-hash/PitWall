@@ -23,8 +23,8 @@ A web-based dashboard that analyses real Formula 1 race data from the 2024 Bahra
 ## How to Run
 1. Clone the repository:
 ```
-   git clone https://github.com/niranjanak203-hash/F1---Journey.git
-   cd F1---Journey
+   git clone https://github.com/niranjanak203-hash/PitWall.git
+   cd PitWall
 ```
 2. Install the libraries:
 ```
