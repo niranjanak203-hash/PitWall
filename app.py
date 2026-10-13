@@ -106,7 +106,7 @@ elif page == "📊 Lap Times":
             hovermode='x unified'
         )
 
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width="stretch")
     else:
         st.warning("Please select at least one driver!")
 
@@ -210,7 +210,7 @@ elif page == "⚡ Fastest Lap":
     top5 = all_laps.nsmallest(5, 'LapTime')[['Driver', 'LapNumber', 'LapTime']].copy()
     top5['LapTime'] = top5['LapTime'].dt.total_seconds()
     top5.columns = ['Driver', 'Lap Number', 'Lap Time (sec)']
-    st.dataframe(top5, use_container_width=True)
+    st.dataframe(top5, width="stretch")
 
     # ============ ANALYSIS 5 - RACE REPLAY ============
 elif page == "🎬 Race Replay":
@@ -254,4 +254,4 @@ elif page == "🎬 Race Replay":
     fig5.update_yaxes(categoryorder='total ascending')
     fig5.update_layout(height=700, showlegend=False)
 
-    st.plotly_chart(fig5, use_container_width=True)
+    st.plotly_chart(fig5, width="stretch")
