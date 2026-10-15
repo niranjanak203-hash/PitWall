@@ -11,6 +11,26 @@ A web-based dashboard that analyses real Formula 1 race data from the 2024 Bahra
 - **Fastest Lap:** find the fastest lap of the race and the top 5 laps
 - **Race Replay:** animated lap-by-lap position chart with team colours
 
+## Screenshots
+
+### Home
+![Home page](screenshots/home.png)
+
+### Lap Time Comparison
+![Lap time comparison](screenshots/laptimes.png)
+
+### Tyre Degradation
+![Tyre degradation](screenshots/tyres.png)
+
+### Race Strategy
+![Race strategy](screenshots/strategy.png)
+
+### Fastest Lap
+![Fastest lap](screenshots/fastestlap.png)
+
+### Race Replay
+![Race replay](screenshots/replay.png)
+
 ## Tech Stack
 - Python
 - FastF1 (race data)
